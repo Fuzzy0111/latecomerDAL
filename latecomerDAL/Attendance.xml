@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Attendance>
+  <Student>
+    <StudentID>1404</StudentID>
+    <TimeArrived>09.00</TimeArrived>
+  </Student>
+  <Student>
+    <StudentID>1420</StudentID>
+    <TimeArrived>08.30</TimeArrived>
+  </Student>
+  <Student>
+    <StudentID>1406</StudentID>
+    <TimeArrived>08.30</TimeArrived>
+  </Student>
+  <Student>
+    <StudentID>1410</StudentID>
+    <TimeArrived>08.00</TimeArrived>
+  </Student>
+</Attendance>

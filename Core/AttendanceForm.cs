@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public class Latecomer
+    public class AttendanceForm
     {
         public string studentID {get; set; }
         public string arrivalTime {get; set; }
 
         //public DateTime time;
-        //DateTime TimeNow = DateTime.Now;
+        
                 
         //public Latecomer()
         //{
         //    studentID = 1400;
-        //    arrivalTime = "08.19";
-        //    //time = TimeNow;
+        //    arrivalTime = DateTime.Now;
         //}
 
 

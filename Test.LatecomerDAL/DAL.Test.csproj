@@ -7,7 +7,7 @@
     <ProjectGuid>{3BFD355F-4F63-48FE-BE58-912C7BAE8565}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test.LatecomerDAL</RootNamespace>
+    <RootNamespace>Test.DAL</RootNamespace>
     <AssemblyName>Test.LatecomerDAL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -51,9 +51,9 @@
       <Project>{a8a784b7-1e3a-4f67-82ef-fbd303d370c1}</Project>
       <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\latecomerDAL\latecomerDAL.csproj">
+    <ProjectReference Include="..\latecomerDAL\DAL.csproj">
       <Project>{f0318e6f-8e9c-4208-ace8-c80a25b4e362}</Project>
-      <Name>latecomerDAL</Name>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

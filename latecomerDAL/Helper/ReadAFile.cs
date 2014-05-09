@@ -28,9 +28,9 @@ namespace latecomerDAL.Helper
 
         #endregion
 
-        public List<Latecomer> ReadXMLFile()
+        public List<AttendanceForm> ReadXMLFile()
         {
-            List<Latecomer> newLatecomerList = new List<Latecomer>();
+            List<AttendanceForm> newLatecomerList = new List<AttendanceForm>();
             DataSet ds = null;
             try
             {
@@ -42,7 +42,7 @@ namespace latecomerDAL.Helper
 
                 foreach (DataRow row in ds.Tables[0].AsEnumerable())
                 {
-                    Latecomer tempLatecomer = new Latecomer();
+                    AttendanceForm tempLatecomer = new AttendanceForm();
                     tempLatecomer.studentID = row.Field<string>("StudentID");
                     tempLatecomer.arrivalTime = row.Field<string>("TimeArrived");
                     newLatecomerList.Add(tempLatecomer);

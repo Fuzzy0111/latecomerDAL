@@ -8,7 +8,7 @@ using latecomerDAL;
 using latecomerDAL.Helper;
 using Core;
 
-namespace Test.LatecomerDAL
+namespace Test.DAL
 {
     [TestFixture]
     public class UnitTest
@@ -31,7 +31,7 @@ namespace Test.LatecomerDAL
         [Test]
         public void TestReadFileXML_1of4_ShouldReturn4Latecomer()
         {
-            List<Latecomer> myList = XMLFile1.ReadXMLFile();
+            List<AttendanceForm> myList = XMLFile1.ReadXMLFile();
             Assert.AreEqual(4, myList.Count);
         }
 
